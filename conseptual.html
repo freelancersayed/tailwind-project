@@ -10,11 +10,25 @@
 <body class=" text-white">
     <header>
         <nav class=" font-bold px-10 bg-gray-500 h-20 py-5">
-            <div class="container mx-auto md:flex lg:flex items-center justify-between">
+            <div class="container mx-auto justify-between md:flex lg:flex items-center">
+                <div class="flex justify-between">
                 <div class="flex items-center gap-4">
-                    <img class="w-10" src="map 1.png" alt="">
+                    <img class="w-10 " src="map 1.png" alt="">
                     <h2 class="text-4xl font-extrabold ">sayed</h2>
+                    </div>
+                  <div class=" ">
                     <img class="visible md:invisible lg:invisible" src="/images1/icons/menu.png" alt="">
+
+                    <div class="absolute invisible hover:visible ">
+                        <ul class="">
+                            <li><a href=""></a>Home</li>
+                            <li><a href=""></a>About</li>
+                            <li><a href=""></a>Portfolio</li>
+                            <li><a href=""></a>Login </li>
+                            <li><button class="btn border-0 bg-orange-600 text-black hover:bg-white hover:text-orange-600"><a href="">Get Started</a></button></li>                        
+                        </ul>
+                    </div>
+                  </div>
                 </div>
                 <div class="flex items-center">
                     <ul class="invisible md:visible lg:visible flex gap-8 items-center">
@@ -22,16 +36,14 @@
                         <li><a href=""></a>About</li>
                         <li><a href=""></a>Portfolio</li>
                         <li><a href=""></a>Login </li>
-                        <li><button class="btn border-0 bg-orange-600 text-black hover:bg-white hover:text-orange-600"><a href="">Get Started</a></button></li>
-                        
+                        <li><button class="btn border-0 bg-orange-600 text-black hover:bg-white hover:text-orange-600"><a href="">Get Started</a></button></li>                        
                     </ul>
-             
                 </div>
             </div>
         </nav>
     </header>
-    <section class="container flex lg:h-[50vh] items-center px-3 lg:px-8 gap-5 bg-slate-600 mx-auto">
-        <div class="w-6/12 mx-auto">
+    <section class="container px-5  lg:flex lg:h-[50vh] items-center px-3 lg:px-8 gap-5 bg-slate-600 mx-auto">
+        <div class="lg:w-6/12 mx-auto">
             <h1 class="text-6xl font-extrabold mb-6">Creative way to Showcase your <span class=" text-orange-600 ">App</span></h1>
             <p class="text-2xl">Amar sonar bnagla ami tomai valobasi chirodin otmar akhas toamr batas</p>
         </div>
@@ -39,5 +51,24 @@
             <img class="w-full" src="/images1/slider/bike3.png" alt="">
         </div>
     </section>
+    <section class="container mx-auto  mt-6">
+        <div class="grid grid-cols-4">
+            <div class="h-40 col-span-2  bg-red-500 "></div>
+            <div class="h-40 col-span-2  bg-blue-500"></div>
+        </div>
+        <div class="grid grid-cols-6">
+            <div class="h-40 col-span-3 bg-orange-500 "></div>
+            <div class="h-40 col-span-3 bg-red-500"></div>
+            <div class="h-40 row-span-2 bg-green-500"></div>
+        </div>
+    
+        <div>
+            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="First Name">
+        </div>
+    </section>
+
+ 
 </body>
 </html>
